@@ -31,10 +31,10 @@ export default function AppRoutes() {
               iconName = focused ? 'home' : 'home-outline';
 
             } else if (rn === cameraName) {
-              iconName = focused ? 'list' : 'camera-outline';
+              iconName = focused ? 'camera' : 'camera-outline';
 
             } else if (rn === infoName) {
-              iconName = focused ? 'settings' : 'information-circle-outline';
+              iconName = focused ? 'information-circle' : 'information';
             }
 
             return <Ionicons name={iconName} size={size} color={color} />;
