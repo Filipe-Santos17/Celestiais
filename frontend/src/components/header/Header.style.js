@@ -47,7 +47,7 @@ export const Banner = styled.section`
   background: ${(props) => `url(${props.imgUrl})`}; 
   background-repeat: no-repeat;
   background-size: cover;
-  height: 75vh;
+  height: 85vh;
   position: relative;
 
   img{
@@ -66,19 +66,19 @@ export const Banner = styled.section`
   }
 
   .tard-img{
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
   }
 
   .tard-text{
     color: #fff;
     
     h3{
-      font-size: 13rem;
+      font-size: 10rem;
     }
 
     p{
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   }
 `;
