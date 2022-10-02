@@ -14,8 +14,7 @@ export default function HeaderComp() {
           <li>Create your Super Hero(soon)</li>
         </ul>
       </Header>
-      <Banner>
-        <img src={Banne}  alt="Survivors Banner"/>
+      <Banner imgUrl={Banne}>
         <div className='tard'>
           <img src={tadigrado} className="tard-img" alt="tadigrado"/>
           <div className='tard-text'>

@@ -45,6 +45,9 @@ export const Header = styled.header`
 
 export const Banner = styled.section`
   width: 100%;
+  background: ${(props) => `url(${props.imgUrl})`}; 
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 85vh;
   position: relative;
 
@@ -56,8 +59,10 @@ export const Banner = styled.section`
   .tard{
     display: flex;
     position: absolute;
+    grid-template-columns: repeat(2,1fr);
     left: 60px;
     top: 3vh;
+    width: 100%;
     align-items: center;
   }
 
