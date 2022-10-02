@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
   }
 
   ul, ol {

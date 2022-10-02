@@ -44,11 +44,10 @@ export const Header = styled.header`
 `;
 
 export const Banner = styled.section`
-  width: 100%;
   background: ${(props) => `url(${props.imgUrl})`}; 
   background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh;
+  height: 75vh;
   position: relative;
 
   img{
