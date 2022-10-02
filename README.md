@@ -1,2 +1,2 @@
 # CelestiaisApp
-Nasa Space Apps Challenge 2022
+For Nasa Space Apps Challenge 2022
