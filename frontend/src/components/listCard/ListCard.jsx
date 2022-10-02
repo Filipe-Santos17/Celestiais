@@ -3,6 +3,14 @@ import Card from './Card'
 import { ListCard } from './ListCard.style'
 import Carousel from 'react-elastic-carousel'
 
+import Human from "../../assets/cards/Human.png"
+import pine from "../../assets/cards/pine.png"
+import davidi from "../../assets/cards/davidi.png"
+import tardig from "../../assets/cards/tardig.png"
+import dinoc from "../../assets/cards/dinoc.png"
+
+console.log(Human)
+
 export default function ListCardComp() {
 
   const breakPoint = [
@@ -11,21 +19,17 @@ export default function ListCardComp() {
     {width: 768, itemsToShow: 3},
     {width: 1220, itemsToShow: 4},
     {width: 1720, itemsToShow: 4},
-    {width: 2220, itemsToShow: 4},
   ]
 
   return (
-    <ListCard>
+    <ListCard id="cards">
       <h3>Conheça nossas cartas</h3>
       <Carousel className='allCards' breakPoints={breakPoint}>
-        <Card/>      
-        <Card/>      
-        <Card/>      
-        <Card/>      
-        <Card/>      
-        <Card/>      
-        <Card/>      
-        <Card/>      
+        <Card ImgF={Human} Label="Human" Strong="Evolute" Weak=""/>      
+        <Card ImgF={tardig} Label="Tardigrade" Strong="Evolute" Weak=""/>      
+        <Card ImgF={davidi} Label="P. davidi" Strong="Evolute" Weak=""/>      
+        <Card ImgF={pine} Label="Pine" Strong="Longevity" Weak=""/>      
+        <Card ImgF={dinoc} Label="D. radiodurans" Strong="Evolute" Weak=""/>      
       </Carousel>
     </ListCard>
   )

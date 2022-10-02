@@ -1,18 +1,17 @@
 import React from 'react'
 import { SectionCard } from './ListCard.style'
-import Human from "../../assets/cards/Human.png"
 
-export default function Card() {
+export default function Card({ImgF,Label,Strong,Weak}) {
   return (
     <SectionCard>
       <div className='imgCard'>
-          <img src={Human} alt="Human" />
+          <img src={ImgF} alt={Label} />
       </div>
       <div className='textCard'>
-          <h4>Humano</h4>
+          <h4>{Label}</h4>
           <ul>
-            <li>Habilidade 1</li>
-            <li>Habilidade 2</li>
+            <li>{Strong}</li>
+            <li>{Weak}</li>
           </ul>
       </div>
     </SectionCard>

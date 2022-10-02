@@ -53,8 +53,10 @@ export const SectionCard = styled.section`
 `;
 
 export const ListCard = styled.section`
-  h3{
-    margin: 30px 0;
+ margin-bottom: 50px;
+ 
+ h3{
+    margin: 40px 0;
     font-size: 40px;
     font-weight: 700;
     text-align: center;

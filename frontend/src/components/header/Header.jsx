@@ -10,8 +10,8 @@ export default function HeaderComp() {
       <Header>
         <h1>Celestiais</h1>
         <ul>
-          <li>Conheça os Animais</li>
-          <li>Crie o seu Super Herói</li>
+          <li className='btnShow' href="#cards">Discover</li>
+          <li>Create your Super Hero(soon)</li>
         </ul>
       </Header>
       <Banner>
@@ -20,7 +20,7 @@ export default function HeaderComp() {
           <img src={tadigrado} className="tard-img" alt="tadigrado"/>
           <div className='tard-text'>
             <h3>Survivors</h3>
-            <p>Crie a nova criatura que dominiará o universo</p>
+            <p>Create the new creature that will rule the universe</p>
           </div>
         </div>
       </Banner>
